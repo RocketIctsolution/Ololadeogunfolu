@@ -1,0 +1,1718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ololade Mary Ogunfolu | Interior Designer, Entrepreneur, Author & Mentor</title>
+<meta name="description" content="Ololade Mary Ogunfolu — Interior Designer, Builder, Business Strategist, Real-Life Coach, Mentor and Author. Owner of Lomark Furniture Center and founder of Learn With Lomark, helping people build spaces, businesses and purpose-driven lives.">
+<meta name="theme-color" content="#0B0A08">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ololade Mary Ogunfolu | Interior Designer, Entrepreneur, Author & Mentor">
+<meta property="og:description" content="Building spaces. Building businesses. Building people. Explore the work, the book, and the mission of Ololade Mary Ogunfolu.">
+<meta property="og:image" content="assets/book-cover.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ololade Mary Ogunfolu",
+  "jobTitle": ["Interior Designer", "Builder", "Business Strategist", "Real-Life Coach", "Mentor", "Author", "Entrepreneur"],
+  "url": "https://ololademaryogunfolu.com",
+  "sameAs": [
+    "https://www.instagram.com/becomingyouridentity_",
+    "https://youtube.com/@ololadelomark"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Lomark Furniture Center"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "Beyond The Pain: The Story of Ololade Ogunfolu",
+  "author": {
+    "@type": "Person",
+    "name": "Ololade Mary Ogunfolu"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://paystack.shop/pay/byiololade",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+
+<style>
+/* ============ DESIGN TOKENS ============ */
+:root{
+  --ink:#0b0a08;
+  --charcoal:#17140f;
+  --charcoal-2:#1f1b14;
+  --ivory:#f3eee2;
+  --stone:#9c927e;
+  --stone-dim:#6f6858;
+  --gold:#c9a227;
+  --gold-bright:#e2bb3d;
+  --champagne:#e8d9ae;
+  --gold-deep:#6e5419;
+  --hairline: rgba(201,162,39,0.28);
+  --overlay: rgba(11,10,8,0.72);
+
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --gold-grad: linear-gradient(120deg, var(--gold-deep) 0%, var(--gold) 28%, var(--champagne) 50%, var(--gold-bright) 72%, var(--gold-deep) 100%);
+  --container: 1240px;
+  --edge: clamp(24px, 5vw, 80px);
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important;}
+}
+
+body{
+  background:var(--ink);
+  color:var(--ivory);
+  font-family:var(--sans);
+  font-weight:400;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+
+.container{
+  max-width:var(--container);
+  margin:0 auto;
+  padding-left:var(--edge);
+  padding-right:var(--edge);
+}
+
+::selection{background:var(--gold); color:var(--ink);}
+
+/* focus visibility */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible{
+  outline:1.5px solid var(--gold);
+  outline-offset:3px;
+}
+
+/* ---- gold text gradient ---- */
+.gold-text{
+  background:var(--gold-grad);
+  background-size:200% auto;
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+.eyebrow{
+  font-family:var(--sans);
+  font-size:0.72rem;
+  letter-spacing:0.22em;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-weight:600;
+}
+
+.hairline{
+  height:1px;
+  width:100%;
+  background:linear-gradient(90deg, transparent, var(--hairline) 20%, var(--hairline) 80%, transparent);
+  border:none;
+}
+
+.hairline-solid{
+  height:1px;
+  background:var(--hairline);
+  border:none;
+}
+
+/* folio mark - a recurring chapter/book motif used instead of generic icons */
+.folio{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  font-family:var(--serif);
+  font-style:italic;
+  font-weight:500;
+  color:var(--gold);
+  font-size:1rem;
+}
+.folio::before{
+  content:'';
+  width:22px;
+  height:1px;
+  background:var(--gold);
+  display:inline-block;
+}
+
+h1,h2,h3,h4{
+  font-family:var(--serif);
+  font-weight:500;
+  line-height:1.05;
+  letter-spacing:-0.01em;
+}
+
+p{color:var(--stone);}
+
+/* reveal-on-scroll (single subtle mechanism reused sparingly) */
+.reveal{
+  opacity:0;
+  transform:translateY(22px);
+  transition:opacity 0.9s cubic-bezier(.2,.7,.3,1), transform 0.9s cubic-bezier(.2,.7,.3,1);
+}
+.reveal.in{
+  opacity:1;
+  transform:translateY(0);
+}
+.reveal-delay-1{transition-delay:0.1s;}
+.reveal-delay-2{transition-delay:0.22s;}
+.reveal-delay-3{transition-delay:0.34s;}
+
+/* ============ NAV ============ */
+.site-nav{
+  position:fixed;
+  top:0; left:0; right:0;
+  z-index:1000;
+  padding:22px var(--edge);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  transition:background 0.4s ease, padding 0.4s ease, backdrop-filter 0.4s ease, border-color 0.4s ease;
+  border-bottom:1px solid transparent;
+}
+.site-nav.scrolled{
+  background:rgba(11,10,8,0.86);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  padding-top:14px;
+  padding-bottom:14px;
+  border-bottom:1px solid var(--hairline);
+}
+.nav-logo img{
+  height:36px;
+  width:auto;
+  filter: drop-shadow(0 0 14px rgba(201,162,39,0.25));
+}
+.nav-links{
+  display:flex;
+  align-items:center;
+  gap:34px;
+  list-style:none;
+}
+.nav-links a{
+  font-size:0.82rem;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  color:var(--ivory);
+  position:relative;
+  padding-bottom:4px;
+  font-weight:500;
+}
+.nav-links a::after{
+  content:'';
+  position:absolute;
+  left:0; right:0; bottom:0;
+  height:1px;
+  background:var(--gold);
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:transform 0.35s ease;
+}
+.nav-links a:hover::after,
+.nav-links a:focus-visible::after{transform:scaleX(1);}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  font-size:0.78rem;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  font-weight:600;
+  padding:14px 28px;
+  border:1px solid var(--gold);
+  color:var(--ivory);
+  background:transparent;
+  transition:all 0.35s ease;
+  white-space:nowrap;
+}
+.btn-gold{
+  background:var(--gold-grad);
+  background-size:200% auto;
+  color:var(--ink);
+  border:1px solid transparent;
+}
+.btn-gold:hover, .btn-gold:focus-visible{
+  background-position:100% center;
+  box-shadow:0 0 26px rgba(201,162,39,0.45);
+}
+.btn-outline:hover, .btn-outline:focus-visible{
+  background:var(--gold);
+  color:var(--ink);
+}
+.btn-ghost{
+  border-color:var(--hairline);
+  padding:14px 26px;
+}
+.btn-ghost:hover, .btn-ghost:focus-visible{
+  border-color:var(--gold);
+}
+.btn-sm{padding:11px 20px; font-size:0.72rem;}
+.btn[disabled], .btn.is-disabled{
+  opacity:0.45;
+  cursor:not-allowed;
+  pointer-events:none;
+}
+
+.nav-cta{display:flex; align-items:center; gap:22px;}
+
+.hamburger{
+  display:none;
+  flex-direction:column;
+  gap:6px;
+  background:none;
+  border:none;
+  padding:6px;
+  z-index:1100;
+}
+.hamburger span{
+  width:26px; height:1px;
+  background:var(--gold);
+  display:block;
+  transition:transform 0.3s ease, opacity 0.3s ease;
+}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.hamburger.open span:nth-child(2){opacity:0;}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+.mobile-menu{
+  position:fixed; inset:0;
+  background:var(--ink);
+  z-index:1050;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  gap:26px;
+  padding:0 var(--edge);
+  transform:translateY(-100%);
+  transition:transform 0.5s cubic-bezier(.2,.7,.3,1);
+}
+.mobile-menu.open{transform:translateY(0);}
+.mobile-menu a{
+  font-family:var(--serif);
+  font-size:2.1rem;
+  font-weight:500;
+  color:var(--ivory);
+}
+.mobile-menu .btn{margin-top:14px;}
+
+@media (max-width:900px){
+  .nav-links, .nav-cta .btn-ghost, .nav-cta .btn-outline{display:none;}
+  .hamburger{display:flex;}
+  .nav-cta{gap:16px;}
+}
+
+/* ============ HERO ============ */
+.hero{
+  position:relative;
+  min-height:100vh;
+  display:flex;
+  align-items:flex-end;
+  overflow:hidden;
+  background:var(--ink);
+}
+.hero-media{
+  position:absolute; inset:0;
+  z-index:0;
+}
+.hero-media img{
+  width:100%; height:100%;
+  object-fit:cover;
+  object-position:50% 28%;
+  filter:saturate(0.92) contrast(1.05);
+}
+.hero-media::after{
+  content:'';
+  position:absolute; inset:0;
+  background:
+    linear-gradient(0deg, rgba(11,10,8,0.98) 4%, rgba(11,10,8,0.55) 42%, rgba(11,10,8,0.35) 62%, rgba(11,10,8,0.78) 100%),
+    linear-gradient(100deg, rgba(11,10,8,0.55) 0%, rgba(11,10,8,0.05) 46%, rgba(11,10,8,0.55) 100%);
+}
+.hero-glow{
+  position:absolute;
+  width:60vw; height:60vw;
+  max-width:820px; max-height:820px;
+  right:-14%; top:-8%;
+  background:radial-gradient(circle, rgba(201,162,39,0.18) 0%, rgba(201,162,39,0) 68%);
+  z-index:1;
+  pointer-events:none;
+}
+.hero-inner{
+  position:relative;
+  z-index:2;
+  width:100%;
+  padding:180px var(--edge) 84px;
+  max-width:var(--container);
+  margin:0 auto;
+}
+.hero-eyebrow{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:26px;
+  font-size:0.72rem;
+  letter-spacing:0.24em;
+  text-transform:uppercase;
+  color:var(--champagne);
+  font-weight:600;
+}
+.hero-eyebrow span{opacity:0.55;}
+.hero-title{
+  font-size:clamp(2.6rem, 7vw, 6rem);
+  color:var(--ivory);
+  max-width:14ch;
+}
+.hero-title em{
+  font-style:italic;
+  color:var(--gold);
+}
+.hero-sub{
+  margin-top:28px;
+  max-width:44ch;
+  font-family:var(--serif);
+  font-style:italic;
+  font-size:clamp(1.1rem, 2vw, 1.45rem);
+  color:var(--champagne);
+  font-weight:400;
+  line-height:1.5;
+}
+.hero-ctas{
+  margin-top:44px;
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap;
+}
+.hero-scroll{
+  position:absolute;
+  right:var(--edge);
+  bottom:40px;
+  z-index:2;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  color:var(--stone);
+  font-size:0.7rem;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+}
+.hero-scroll-line{
+  width:1px; height:46px;
+  background:linear-gradient(180deg, var(--gold), transparent);
+  position:relative;
+  overflow:hidden;
+}
+.hero-scroll-line::after{
+  content:'';
+  position:absolute; top:-46px; left:0;
+  width:100%; height:46px;
+  background:var(--gold-bright);
+  animation:scrollDrip 2.4s ease-in-out infinite;
+}
+@keyframes scrollDrip{
+  0%{transform:translateY(0);}
+  100%{transform:translateY(92px);}
+}
+@media (max-width:900px){
+  .hero{align-items:flex-end;}
+  .hero-inner{padding-top:150px; padding-bottom:64px;}
+  .hero-scroll{display:none;}
+}
+
+/* ============ INTRO / BRAND STATEMENT ============ */
+.intro{
+  background:var(--ink);
+  padding:150px var(--edge) 140px;
+  text-align:left;
+  position:relative;
+}
+.intro-inner{max-width:var(--container); margin:0 auto;}
+.intro .folio{margin-bottom:34px; display:block;}
+.intro-statement{
+  font-size:clamp(1.9rem, 4.6vw, 3.6rem);
+  max-width:16ch;
+  color:var(--ivory);
+}
+.intro-statement .line{
+  display:block;
+  overflow:hidden;
+}
+.intro-statement .line span{
+  display:inline-block;
+  transform:translateY(110%);
+  transition:transform 0.9s cubic-bezier(.2,.8,.2,1);
+}
+.intro-statement.in .line span{transform:translateY(0);}
+.intro-statement .line:nth-child(1) span{transition-delay:0.05s;}
+.intro-statement .line:nth-child(2) span{transition-delay:0.16s;}
+.intro-statement .line:nth-child(3) span{transition-delay:0.27s;}
+.intro-foot{
+  margin-top:46px;
+  max-width:52ch;
+  font-size:1.02rem;
+  color:var(--stone);
+}
+
+/* ============ SECTION SHELL ============ */
+.section{
+  padding:130px var(--edge);
+  position:relative;
+}
+.section-inner{max-width:var(--container); margin:0 auto;}
+.section-alt{background:var(--charcoal);}
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  gap:40px;
+  margin-bottom:64px;
+  flex-wrap:wrap;
+}
+.section-head h2{
+  font-size:clamp(2.1rem, 4vw, 3.2rem);
+  max-width:14ch;
+}
+.section-head .folio{margin-bottom:18px;}
+.section-head p{max-width:38ch; font-size:1rem;}
+
+/* ============ ABOUT ============ */
+.about-grid{
+  display:grid;
+  grid-template-columns:0.85fr 1.15fr;
+  gap:70px;
+  align-items:start;
+}
+.about-photo{
+  position:relative;
+}
+.about-photo-frame{
+  position:relative;
+  border:1px solid var(--hairline);
+  padding:14px;
+}
+.about-photo img{
+  width:100%;
+  aspect-ratio:4/5;
+  object-fit:cover;
+  object-position:50% 20%;
+  filter:grayscale(0.06) contrast(1.04);
+}
+.about-photo-caption{
+  margin-top:18px;
+  font-family:var(--serif);
+  font-style:italic;
+  color:var(--stone);
+  font-size:0.95rem;
+}
+.about-copy p{
+  font-size:1.06rem;
+  color:var(--stone);
+  margin-bottom:22px;
+  max-width:62ch;
+}
+.about-copy p:first-of-type{
+  font-family:var(--serif);
+  font-size:1.3rem;
+  color:var(--ivory);
+  font-style:italic;
+  line-height:1.5;
+}
+.about-more{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height 0.6s cubic-bezier(.2,.7,.3,1);
+}
+.about-more.open{max-height:1400px;}
+.read-more-btn{
+  background:none;
+  border:none;
+  color:var(--gold);
+  font-size:0.82rem;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  font-weight:600;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:6px 0;
+  border-bottom:1px solid var(--hairline);
+}
+.read-more-btn:hover{border-color:var(--gold);}
+.read-more-btn .chev{transition:transform 0.35s ease; display:inline-block;}
+.read-more-btn.open .chev{transform:rotate(180deg);}
+@media (max-width:900px){
+  .about-grid{grid-template-columns:1fr; gap:44px;}
+  .about-photo{max-width:340px;}
+}
+
+/* ============ JOURNEY ============ */
+.journey-top{
+  display:grid;
+  grid-template-columns:0.9fr 1.1fr;
+  gap:70px;
+  align-items:center;
+  margin-bottom:90px;
+}
+.journey-figure{
+  font-family:var(--serif);
+  font-size:clamp(5rem, 11vw, 9rem);
+  line-height:0.85;
+}
+.journey-figure small{
+  display:block;
+  font-family:var(--sans);
+  font-size:0.78rem;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  color:var(--stone);
+  margin-top:34px;
+  font-weight:600;
+  line-height:1.7;
+}
+.journey-photo{
+  position:relative;
+  border:1px solid var(--hairline);
+  padding:12px;
+}
+.journey-photo img{
+  width:100%;
+  aspect-ratio:16/11;
+  object-fit:cover;
+  object-position:50% 35%;
+}
+.journey-pillars{
+  display:grid;
+  grid-template-columns:repeat(5, 1fr);
+  border-top:1px solid var(--hairline);
+}
+.pillar{
+  padding:34px 22px 0;
+  border-right:1px solid var(--hairline);
+}
+.pillar:last-child{border-right:none;}
+.pillar .folio-index{
+  font-family:var(--serif);
+  font-style:italic;
+  color:var(--gold);
+  font-size:1.1rem;
+  display:block;
+  margin-bottom:14px;
+}
+.pillar h4{
+  font-size:1.15rem;
+  color:var(--ivory);
+  font-weight:500;
+}
+@media (max-width:900px){
+  .journey-top{grid-template-columns:1fr; gap:40px;}
+  .journey-pillars{grid-template-columns:repeat(2,1fr);}
+  .pillar{border-right:none; border-bottom:1px solid var(--hairline); padding-bottom:26px; margin-bottom:8px;}
+}
+
+/* ============ BOOK ============ */
+.book-grid{
+  display:grid;
+  grid-template-columns:0.62fr 1.38fr;
+  gap:80px;
+  align-items:center;
+}
+.book-cover-wrap{
+  position:relative;
+  perspective:1400px;
+}
+.book-cover-frame{
+  position:relative;
+  transition:transform 0.6s cubic-bezier(.2,.8,.2,1);
+  box-shadow:0 40px 90px rgba(0,0,0,0.55), 0 0 0 1px var(--hairline);
+}
+.book-cover-wrap:hover .book-cover-frame{
+  transform:rotateY(-8deg) rotateX(2deg) translateY(-6px);
+}
+.book-cover-frame img{width:100%;}
+.book-cover-glow{
+  position:absolute; inset:-30px;
+  background:radial-gradient(circle at 50% 40%, rgba(201,162,39,0.22), transparent 70%);
+  z-index:-1;
+}
+.book-copy .folio{margin-bottom:22px;}
+.book-copy h2{
+  font-size:clamp(2.2rem, 4.4vw, 3.6rem);
+  margin-bottom:26px;
+  max-width:14ch;
+}
+.book-copy p{
+  font-size:1.08rem;
+  max-width:56ch;
+  margin-bottom:20px;
+}
+.book-ctas{
+  margin-top:38px;
+  display:flex;
+  gap:18px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.book-note{
+  font-size:0.82rem;
+  color:var(--stone-dim);
+  font-style:italic;
+  font-family:var(--serif);
+}
+@media (max-width:900px){
+  .book-grid{grid-template-columns:1fr; gap:50px;}
+  .book-cover-wrap{max-width:280px; margin:0 auto;}
+}
+
+/* ============ VIDEO SECTION ============ */
+.video-section{
+  background:var(--charcoal);
+  padding:140px var(--edge);
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+.video-section::before{
+  content:'';
+  position:absolute; inset:0;
+  background:radial-gradient(60% 50% at 50% 0%, rgba(201,162,39,0.08), transparent 70%);
+}
+.video-heading{
+  position:relative;
+  font-size:clamp(2rem, 4.6vw, 3.4rem);
+  max-width:18ch;
+  margin:0 auto 60px;
+}
+.video-frame-wrap{
+  position:relative;
+  margin:0 auto;
+  width:min(320px, 78vw);
+}
+.video-frame{
+  position:relative;
+  border-radius:26px;
+  overflow:hidden;
+  border:1px solid var(--hairline);
+  box-shadow:0 0 0 1px rgba(201,162,39,0.15), 0 40px 100px rgba(0,0,0,0.6), 0 0 60px rgba(201,162,39,0.12);
+  background:#000;
+}
+.video-frame video{
+  width:100%;
+  display:block;
+  aspect-ratio:480/848;
+  object-fit:cover;
+}
+.video-play-btn{
+  position:absolute;
+  top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  width:64px; height:64px;
+  border-radius:50%;
+  border:1px solid var(--gold);
+  background:rgba(11,10,8,0.55);
+  backdrop-filter:blur(6px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:opacity 0.3s ease, transform 0.3s ease;
+  z-index:3;
+}
+.video-play-btn.hidden{opacity:0; pointer-events:none; transform:translate(-50%,-50%) scale(0.85);}
+.video-play-btn svg{width:20px; height:20px; fill:var(--gold-bright); margin-left:3px;}
+.video-caption{
+  margin-top:36px;
+  font-family:var(--serif);
+  font-style:italic;
+  color:var(--stone);
+  font-size:1rem;
+}
+
+/* ============ WHY THE BOOK ============ */
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:1px;
+  background:var(--hairline);
+  border:1px solid var(--hairline);
+}
+.why-card{
+  background:var(--ink);
+  padding:48px 38px;
+}
+.why-card .folio-index{
+  font-family:var(--serif);
+  font-style:italic;
+  font-size:1.4rem;
+  color:var(--gold);
+  display:block;
+  margin-bottom:24px;
+}
+.why-card h3{
+  font-size:1.5rem;
+  margin-bottom:16px;
+  color:var(--ivory);
+}
+.why-card p{font-size:0.98rem;}
+@media (max-width:900px){
+  .why-grid{grid-template-columns:1fr;}
+}
+
+/* ============ SERVICES ============ */
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:56px 40px;
+}
+.service-item{
+  border-top:1px solid var(--hairline);
+  padding-top:26px;
+}
+.service-item .mark{
+  width:34px; height:34px;
+  margin-bottom:22px;
+  position:relative;
+}
+.service-item .mark svg{width:100%; height:100%; stroke:var(--gold); fill:none; stroke-width:1.1;}
+.service-item h4{
+  font-size:1.35rem;
+  color:var(--ivory);
+  margin-bottom:10px;
+}
+.service-item p{font-size:0.96rem;}
+@media (max-width:900px){
+  .services-grid{grid-template-columns:1fr 1fr; gap:40px 28px;}
+}
+@media (max-width:560px){
+  .services-grid{grid-template-columns:1fr;}
+}
+
+/* ============ VENTURE BANDS (Lomark / Learn With Lomark) ============ */
+.venture{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  align-items:center;
+  gap:0;
+  border-top:1px solid var(--hairline);
+}
+.venture:last-of-type{border-bottom:1px solid var(--hairline);}
+.venture-copy{padding:70px var(--edge);}
+.venture-media{
+  position:relative;
+  min-height:380px;
+  overflow:hidden;
+}
+.venture-media img{
+  width:100%; height:100%;
+  object-fit:cover;
+  position:absolute; inset:0;
+}
+.venture-media::after{
+  content:'';
+  position:absolute; inset:0;
+  background:linear-gradient(90deg, rgba(11,10,8,0.5), transparent);
+}
+.venture.reverse{direction:rtl;}
+.venture.reverse > *{direction:ltr;}
+.venture .folio{margin-bottom:20px;}
+.venture h3{font-size:clamp(1.8rem,3.4vw,2.6rem); margin-bottom:20px; max-width:14ch;}
+.venture p{font-size:1.02rem; max-width:48ch; margin-bottom:30px;}
+@media (max-width:900px){
+  .venture, .venture.reverse{grid-template-columns:1fr; direction:ltr;}
+  .venture-media{min-height:260px; order:-1;}
+  .venture-copy{padding:56px var(--edge);}
+}
+
+/* ============ PODCAST ============ */
+.podcast-wrap{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:70px;
+  align-items:center;
+}
+.podcast-topics{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin:30px 0 38px;
+}
+.podcast-topics span{
+  border:1px solid var(--hairline);
+  padding:9px 18px;
+  font-size:0.8rem;
+  letter-spacing:0.04em;
+  color:var(--champagne);
+}
+.podcast-visual{
+  position:relative;
+  aspect-ratio:1/1;
+  border:1px solid var(--hairline);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:radial-gradient(circle at 50% 50%, rgba(201,162,39,0.12), transparent 70%);
+}
+.podcast-rings{position:relative; width:70%; height:70%;}
+.podcast-rings .ring{
+  position:absolute; border:1px solid var(--hairline); border-radius:50%;
+}
+.podcast-rings .ring:nth-child(1){inset:0;}
+.podcast-rings .ring:nth-child(2){inset:14%;}
+.podcast-rings .ring:nth-child(3){inset:28%; border-color:var(--gold);}
+.podcast-rings .center{
+  position:absolute; inset:38%;
+  border-radius:50%;
+  background:var(--gold-grad);
+  display:flex; align-items:center; justify-content:center;
+}
+.podcast-rings .center svg{width:26px; height:26px; fill:var(--ink); margin-left:3px;}
+@media (max-width:900px){
+  .podcast-wrap{grid-template-columns:1fr; gap:50px;}
+  .podcast-visual{max-width:280px; margin:0 auto;}
+}
+
+/* ============ GALLERY ============ */
+.gallery-masonry{
+  display:grid;
+  grid-template-columns:repeat(6, 1fr);
+  grid-auto-rows:120px;
+  gap:14px;
+}
+.gallery-item{
+  position:relative;
+  overflow:hidden;
+  cursor:pointer;
+  border:1px solid transparent;
+  transition:border-color 0.3s ease;
+}
+.gallery-item:hover{border-color:var(--hairline);}
+.gallery-item img{
+  width:100%; height:100%;
+  object-fit:cover;
+  transition:transform 0.7s cubic-bezier(.2,.7,.3,1), filter 0.5s ease;
+  filter:saturate(0.94);
+}
+.gallery-item:hover img{transform:scale(1.06); filter:saturate(1.05);}
+.gallery-item .cap{
+  position:absolute; left:0; right:0; bottom:0;
+  padding:16px 18px;
+  background:linear-gradient(0deg, rgba(11,10,8,0.85), transparent);
+  font-size:0.78rem;
+  letter-spacing:0.05em;
+  color:var(--champagne);
+  opacity:0;
+  transform:translateY(6px);
+  transition:opacity 0.35s ease, transform 0.35s ease;
+}
+.gallery-item:hover .cap{opacity:1; transform:translateY(0);}
+.g-1{grid-column:span 3; grid-row:span 3;}
+.g-2{grid-column:span 3; grid-row:span 2;}
+.g-3{grid-column:span 3; grid-row:span 2;}
+.g-4{grid-column:span 2; grid-row:span 2;}
+.g-5{grid-column:span 2; grid-row:span 2;}
+.g-6{grid-column:span 2; grid-row:span 2;}
+@media (max-width:900px){
+  .gallery-masonry{grid-template-columns:repeat(2,1fr); grid-auto-rows:150px;}
+  .g-1,.g-2,.g-3{grid-column:span 2; grid-row:span 3;}
+  .g-4,.g-5,.g-6{grid-column:span 1; grid-row:span 2;}
+}
+
+.lightbox{
+  position:fixed; inset:0;
+  background:rgba(11,10,8,0.96);
+  z-index:2000;
+  display:flex; align-items:center; justify-content:center;
+  opacity:0; pointer-events:none;
+  transition:opacity 0.4s ease;
+  padding:40px;
+}
+.lightbox.open{opacity:1; pointer-events:auto;}
+.lightbox img{max-width:min(900px,86vw); max-height:82vh; object-fit:contain; border:1px solid var(--hairline);}
+.lightbox-close{
+  position:absolute; top:28px; right:var(--edge);
+  background:none; border:1px solid var(--hairline); color:var(--ivory);
+  width:44px; height:44px; border-radius:50%;
+  font-size:1.2rem;
+}
+.lightbox-close:hover{border-color:var(--gold); color:var(--gold);}
+.lightbox-nav{
+  position:absolute; top:50%; transform:translateY(-50%);
+  background:none; border:1px solid var(--hairline); color:var(--ivory);
+  width:48px; height:48px; border-radius:50%; font-size:1.1rem;
+}
+.lightbox-nav:hover{border-color:var(--gold); color:var(--gold);}
+.lightbox-prev{left:var(--edge);}
+.lightbox-next{right:var(--edge);}
+@media (max-width:700px){
+  .lightbox-nav{width:38px;height:38px;}
+}
+
+/* ============ TESTIMONIALS ============ */
+.testi-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1px;
+  background:var(--hairline);
+  border:1px solid var(--hairline);
+}
+.testi-card{
+  background:var(--charcoal);
+  padding:44px 36px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  min-height:260px;
+}
+.testi-mark{
+  font-family:var(--serif);
+  font-size:2.6rem;
+  color:var(--gold);
+  line-height:1;
+  margin-bottom:18px;
+  font-style:italic;
+}
+.testi-quote{
+  font-family:var(--serif);
+  font-size:1.15rem;
+  font-style:italic;
+  color:var(--stone);
+  flex:1;
+}
+.testi-name{
+  margin-top:24px;
+  font-size:0.82rem;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--stone-dim);
+}
+@media (max-width:900px){
+  .testi-grid{grid-template-columns:1fr;}
+}
+
+/* ============ SOCIAL ============ */
+.social-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1px;
+  background:var(--hairline);
+  border:1px solid var(--hairline);
+}
+.social-card{
+  background:var(--ink);
+  padding:54px 40px;
+  transition:background 0.35s ease;
+  display:block;
+}
+.social-card:hover{background:var(--charcoal);}
+.social-card .mark{width:30px; height:30px; margin-bottom:26px;}
+.social-card .mark svg{width:100%; height:100%; stroke:var(--gold); fill:none; stroke-width:1.1;}
+.social-card h4{font-size:1.4rem; color:var(--ivory); margin-bottom:10px;}
+.social-card p{font-size:0.92rem; margin-bottom:22px;}
+.social-card .cta{
+  font-size:0.78rem;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-weight:600;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+@media (max-width:900px){
+  .social-grid{grid-template-columns:1fr;}
+}
+
+/* ============ CONTACT ============ */
+.contact-grid{
+  display:grid;
+  grid-template-columns:0.9fr 1.1fr;
+  gap:80px;
+}
+.contact-info h2{
+  font-size:clamp(2.2rem,4.4vw,3.4rem);
+  margin-bottom:24px;
+  max-width:10ch;
+}
+.contact-info p{max-width:40ch; margin-bottom:36px;}
+.contact-detail{margin-bottom:22px;}
+.contact-detail .label{
+  font-size:0.72rem;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--stone-dim);
+  margin-bottom:6px;
+  display:block;
+}
+.contact-detail a{color:var(--champagne); font-size:1.02rem;}
+.contact-detail a:hover{color:var(--gold);}
+
+.form-row{margin-bottom:26px;}
+.form-row-double{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+.form-row label{
+  display:block;
+  font-size:0.72rem;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color:var(--stone-dim);
+  margin-bottom:10px;
+}
+.form-row input, .form-row textarea{
+  width:100%;
+  background:transparent;
+  border:none;
+  border-bottom:1px solid var(--hairline);
+  color:var(--ivory);
+  font-family:var(--sans);
+  font-size:1rem;
+  padding:10px 2px;
+  transition:border-color 0.3s ease;
+}
+.form-row input:focus, .form-row textarea:focus{
+  border-color:var(--gold);
+  outline:none;
+}
+.form-row textarea{resize:vertical; min-height:110px;}
+.form-status{
+  margin-top:18px;
+  font-size:0.9rem;
+  color:var(--champagne);
+  min-height:1.2em;
+}
+@media (max-width:900px){
+  .contact-grid{grid-template-columns:1fr; gap:56px;}
+  .form-row-double{grid-template-columns:1fr;}
+}
+
+/* ============ FOOTER ============ */
+.site-footer{
+  background:var(--ink);
+  border-top:1px solid var(--hairline);
+  padding:80px var(--edge) 34px;
+}
+.footer-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:40px;
+  flex-wrap:wrap;
+  padding-bottom:56px;
+}
+.footer-brand img{height:42px; margin-bottom:18px;}
+.footer-tag{
+  font-family:var(--serif);
+  font-style:italic;
+  color:var(--stone);
+  font-size:1.05rem;
+  max-width:26ch;
+}
+.footer-links{
+  display:flex;
+  gap:60px;
+  flex-wrap:wrap;
+}
+.footer-col h5{
+  font-size:0.72rem;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--stone-dim);
+  margin-bottom:18px;
+}
+.footer-col a{
+  display:block;
+  color:var(--stone);
+  font-size:0.94rem;
+  margin-bottom:12px;
+  transition:color 0.25s ease;
+}
+.footer-col a:hover{color:var(--gold);}
+.footer-bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  flex-wrap:wrap;
+  font-size:0.8rem;
+  color:var(--stone-dim);
+}
+.footer-social{display:flex; gap:18px;}
+.footer-social a{
+  width:38px; height:38px;
+  border:1px solid var(--hairline);
+  border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  transition:border-color 0.3s ease;
+}
+.footer-social a:hover{border-color:var(--gold);}
+.footer-social svg{width:15px; height:15px; stroke:var(--gold); fill:none; stroke-width:1.3;}
+
+@media (max-width:700px){
+  .footer-top{flex-direction:column; gap:44px;}
+}
+
+/* accessibility: skip link */
+.skip-link{
+  position:absolute; left:-999px; top:0;
+  background:var(--gold); color:var(--ink);
+  padding:12px 20px; z-index:3000; font-size:0.85rem; font-weight:600;
+}
+.skip-link:focus{left:var(--edge); top:12px;}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<nav class="site-nav" id="siteNav">
+  <a href="#home" class="nav-logo" aria-label="Ololade Mary Ogunfolu — home">
+    <img src="assets/logo.png" alt="Ololade Mary Ogunfolu logo">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#book">Book</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#media">Media</a></li>
+    <li><a href="#podcast">Podcast</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-cta">
+    <a href="https://paystack.shop/pay/byiololade" target="_blank" rel="noopener" class="btn btn-gold btn-sm">Buy the Book</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#book">Book</a>
+  <a href="#journey">Journey</a>
+  <a href="#work">Work</a>
+  <a href="#media">Media</a>
+  <a href="#podcast">Podcast</a>
+  <a href="#contact">Contact</a>
+  <a href="https://paystack.shop/pay/byiololade" target="_blank" rel="noopener" class="btn btn-gold">Buy the Book</a>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img src="assets/event-2.jpg" alt="Ololade Mary Ogunfolu on stage at the Becoming Your Identity 1.0 event, addressing a full room">
+  </div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="hero-eyebrow" data-hero-el>Author <span>&middot;</span> Builder <span>&middot;</span> Entrepreneur <span>&middot;</span> Mentor</p>
+    <h1 class="hero-title" data-hero-el>Building spaces.<br>Building businesses.<br>Building <em>people.</em></h1>
+    <p class="hero-sub" data-hero-el>Transforming spaces, empowering people, and helping others discover and live out their God-given purpose.</p>
+    <div class="hero-ctas" data-hero-el>
+      <a href="#about" class="btn btn-gold">Explore My Story</a>
+      <a href="#book" class="btn btn-ghost">Discover the Book</a>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <span class="hero-scroll-line"></span>
+    Scroll
+  </div>
+</section>
+
+<!-- ============ INTRO / BRAND STATEMENT ============ -->
+<section class="intro">
+  <div class="intro-inner">
+    <span class="folio">Her Philosophy</span>
+    <h2 class="intro-statement reveal-io">
+      <span class="line"><span>More than an entrepreneur —</span></span>
+      <span class="line"><span>a builder of spaces,</span></span>
+      <span class="line"><span>businesses <span class="gold-text">and people.</span></span></span>
+    </h2>
+    <p class="intro-foot">Every room she designs, every business she strategises, and every person she mentors carries the same intention: to build something that lasts, and to help others find and live out their purpose.</p>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section section-alt" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <div class="about-photo-frame">
+          <img src="assets/portrait.jpg" alt="Portrait of Ololade Mary Ogunfolu" loading="lazy">
+        </div>
+        <p class="about-photo-caption">Ololade Mary Ogunfolu</p>
+      </div>
+      <div class="about-copy reveal reveal-delay-1">
+        <span class="folio">About Ololade</span>
+        <div style="height:22px"></div>
+        <p>Ololade Mary Ogunfolu is an accomplished Interior Designer, Builder, Business Strategist, Real-Life Coach, Mentor, and Entrepreneur with over 12 years of experience transforming spaces, building businesses, and empowering people to discover and live out their purpose.</p>
+        <p>She is the Owner of Lomark Furniture Center, a brand focused on providing timeless furniture and premium building materials sourced from Turkey and China, serving homeowners, interior designers, and construction professionals.</p>
+
+        <div class="about-more" id="aboutMore">
+          <p>As an experienced Interior Designer and Builder, Ololade specialises in transforming residential and commercial spaces through thoughtful interior design, renovations, and construction. Her approach combines creativity, functionality, timeless aesthetics, and practical solutions to bring exceptional spaces to life.</p>
+          <p>Beyond design and construction, Ololade is passionate about business, personal development, identity, and purpose. Through her work as a business strategist, coach, and mentor, she helps entrepreneurs and professionals build purpose-driven businesses and lives, align their careers with their God-given purpose, and overcome confusion and distractions through practical strategies, mentorship, coaching, and prayer.</p>
+          <p>She is also the Founder of Learn With Lomark, an initiative dedicated to equipping aspiring interior designers with practical skills, industry knowledge, and business principles through hands-on training and mentorship.</p>
+          <p>Through Lomark Podcast and her digital content, Ololade shares practical insights on interior design, construction, entrepreneurship, business, faith, personal growth, and her real-life experiences — using her journey, lessons, victories, and challenges to inspire and equip others.</p>
+          <p>At the heart of everything she does is a desire to build spaces, businesses, and people — while helping others discover their identity, pursue excellence, and fulfil God's purpose for their lives. Ololade Mary Ogunfolu is more than an interior designer or business owner; she is a builder of spaces, businesses, and people.</p>
+        </div>
+
+        <button class="read-more-btn" id="readMoreBtn" aria-expanded="false" aria-controls="aboutMore">
+          <span class="label">Read her full story</span>
+          <span class="chev">&#9662;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY ============ -->
+<section class="section" id="journey">
+  <div class="section-inner">
+    <div class="journey-top">
+      <div class="reveal">
+        <div class="journey-figure gold-text">12+<small>Years building spaces,<br>businesses &amp; people</small></div>
+      </div>
+      <div class="journey-photo reveal reveal-delay-1">
+        <img src="assets/event-1.jpg" alt="Ololade Mary Ogunfolu with guests on stage at the Becoming Your Identity 1.0 book launch" loading="lazy">
+      </div>
+    </div>
+
+    <span class="folio">The Journey</span>
+    <div style="height:14px"></div>
+    <div class="journey-pillars reveal reveal-delay-2">
+      <div class="pillar">
+        <span class="folio-index">i.</span>
+        <h4>Interior Design</h4>
+      </div>
+      <div class="pillar">
+        <span class="folio-index">ii.</span>
+        <h4>Building</h4>
+      </div>
+      <div class="pillar">
+        <span class="folio-index">iii.</span>
+        <h4>Business</h4>
+      </div>
+      <div class="pillar">
+        <span class="folio-index">iv.</span>
+        <h4>Mentorship</h4>
+      </div>
+      <div class="pillar">
+        <span class="folio-index">v.</span>
+        <h4>Authorship</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOK / AUTHOR ============ -->
+<section class="section section-alt" id="book">
+  <div class="section-inner">
+    <div class="book-grid">
+      <div class="book-cover-wrap reveal">
+        <div class="book-cover-glow" aria-hidden="true"></div>
+        <div class="book-cover-frame">
+          <img src="assets/book-cover.jpg" alt="Beyond The Pain — The Story of Ololade Ogunfolu, book cover" loading="lazy">
+        </div>
+      </div>
+      <div class="book-copy reveal reveal-delay-1">
+        <span class="folio">Featured Book</span>
+        <h2>Beyond The Pain<br><span class="gold-text">The Story of Ololade Ogunfolu</span></h2>
+        <p>Beyond The Pain is Ololade Mary Ogunfolu's own story — an honest account of the seasons that tested her, and the faith, purpose and resolve that carried her through them.</p>
+        <p>Written from lived experience, it is an invitation to every reader walking through their own difficult season: pain is not the end of the story — it can become the very ground your purpose is built on.</p>
+        <div class="book-ctas">
+          <a href="https://paystack.shop/pay/byiololade" target="_blank" rel="noopener" class="btn btn-gold">Buy Now</a>
+          <a href="#video" class="btn btn-ghost">Watch the Story</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOK ANIMATION VIDEO ============ -->
+<section class="video-section" id="video">
+  <h2 class="video-heading reveal">A story worth reading.<br><span class="gold-text">A message worth living.</span></h2>
+  <div class="video-frame-wrap reveal reveal-delay-1">
+    <div class="video-frame">
+      <video
+        id="bookVideo"
+        src="assets/book-animation.mp4"
+        poster="assets/book-animation-poster.jpg"
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        aria-label="Animated preview of the book Beyond The Pain">
+      </video>
+      <button class="video-play-btn" id="videoPlayBtn" aria-label="Play video">
+        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+    </div>
+  </div>
+  <p class="video-caption reveal reveal-delay-2">A first look at Beyond The Pain — the book animation.</p>
+</section>
+
+<!-- ============ WHY THE BOOK MATTERS ============ -->
+<section class="section" id="why-book">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div>
+        <span class="folio">Why This Book</span>
+        <h2>Why Beyond The Pain matters</h2>
+      </div>
+      <p>Three reasons this story was written to be read — and shared.</p>
+    </div>
+    <div class="why-grid reveal reveal-delay-1">
+      <div class="why-card">
+        <span class="folio-index">01</span>
+        <h3>An honest account</h3>
+        <p>Ololade tells her story without polish or pretence — the pain, the pressure, and the process that shaped who she has become.</p>
+      </div>
+      <div class="why-card">
+        <span class="folio-index">02</span>
+        <h3>A purpose-driven lens</h3>
+        <p>Every chapter is anchored in faith and purpose, showing how difficulty can be reframed as preparation rather than punishment.</p>
+      </div>
+      <div class="why-card">
+        <span class="folio-index">03</span>
+        <h3>A companion for your season</h3>
+        <p>Written for anyone in a season of struggle, the book offers perspective, encouragement, and permission to keep building.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES / AREAS OF IMPACT ============ -->
+<section class="section section-alt" id="work">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div>
+        <span class="folio">Areas of Impact</span>
+        <h2>Where the work happens</h2>
+      </div>
+      <p>Six disciplines, one continuous practice of building well.</p>
+    </div>
+    <div class="services-grid reveal reveal-delay-1">
+      <div class="service-item">
+        <div class="mark"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg></div>
+        <h4>Interior Design</h4>
+        <p>Thoughtful, functional and timeless spaces for homes and commercial interiors.</p>
+      </div>
+      <div class="service-item">
+        <div class="mark"><svg viewBox="0 0 24 24"><path d="M4 21V10l8-6 8 6v11M4 21h16M9 21v-7h6v7"/></svg></div>
+        <h4>Building &amp; Construction</h4>
+        <p>Renovation and construction management, from concept through to completion.</p>
+      </div>
+      <div class="service-item">
+        <div class="mark"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8M13 7h8v8"/></svg></div>
+        <h4>Business Strategy</h4>
+        <p>Practical strategy for entrepreneurs building purpose-driven, sustainable businesses.</p>
+      </div>
+      <div class="service-item">
+        <div class="mark"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></div>
+        <h4>Coaching &amp; Mentorship</h4>
+        <p>One-on-one and group mentorship for identity, purpose and personal growth.</p>
+      </div>
+      <div class="service-item">
+        <div class="mark"><svg viewBox="0 0 24 24"><path d="M12 2v20M2 12h20M6 6l12 12M18 6L6 18"/></svg></div>
+        <h4>Entrepreneurship</h4>
+        <p>Guidance for professionals building their own ventures with clarity and confidence.</p>
+      </div>
+      <div class="service-item">
+        <div class="mark"><svg viewBox="0 0 24 24"><path d="M2 8l10-5 10 5-10 5-10-5z"/><path d="M6 10.5V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-5.5"/></svg></div>
+        <h4>Training &amp; Education</h4>
+        <p>Hands-on training equipping aspiring designers with real industry skills.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOMARK FURNITURE CENTER ============ -->
+<div class="venture">
+  <div class="venture-copy reveal">
+    <span class="folio">Her Venture</span>
+    <h3>Lomark Furniture Center</h3>
+    <p>Owned by Ololade, Lomark Furniture Center provides timeless furniture and premium building materials sourced from Turkey and China — serving homeowners, interior designers, and construction professionals.</p>
+    <button class="btn btn-ghost is-disabled" disabled title="Website coming soon">Explore Lomark — Coming Soon</button>
+  </div>
+  <div class="venture-media reveal reveal-delay-1">
+    <img src="assets/event-1.jpg" alt="Lomark brand presence at a live event" loading="lazy">
+  </div>
+</div>
+
+<!-- ============ LEARN WITH LOMARK ============ -->
+<div class="venture reverse">
+  <div class="venture-copy reveal">
+    <span class="folio">Her Initiative</span>
+    <h3>Learn With Lomark</h3>
+    <p>An initiative founded by Ololade to equip aspiring interior designers with practical skills, industry knowledge, and business principles — through hands-on training and mentorship.</p>
+    <button class="btn btn-ghost is-disabled" disabled title="Enrolment details coming soon">Learn More — Coming Soon</button>
+  </div>
+  <div class="venture-media reveal reveal-delay-1">
+    <img src="assets/portrait.jpg" alt="Ololade Mary Ogunfolu, founder of Learn With Lomark" loading="lazy">
+  </div>
+</div>
+
+<!-- ============ LOMARK PODCAST ============ -->
+<section class="section" id="podcast">
+  <div class="section-inner">
+    <div class="podcast-wrap">
+      <div class="reveal">
+        <span class="folio">Lomark Podcast</span>
+        <h2 style="font-size:clamp(2rem,4vw,3rem); margin:20px 0 10px; max-width:12ch;">Conversations on design, business &amp; purpose</h2>
+        <p style="max-width:46ch; margin-top:18px;">Through Lomark Podcast, Ololade shares practical insights on interior design, construction, entrepreneurship, business, faith, personal growth, and her real-life experiences.</p>
+        <div class="podcast-topics">
+          <span>Interior Design</span>
+          <span>Construction</span>
+          <span>Entrepreneurship</span>
+          <span>Business</span>
+          <span>Faith</span>
+          <span>Personal Growth</span>
+        </div>
+        <a href="https://youtube.com/@ololadelomark?si=pz0jr_CU7hX-lvNn" target="_blank" rel="noopener" class="btn btn-gold">Watch on YouTube</a>
+      </div>
+      <div class="podcast-visual reveal reveal-delay-1">
+        <div class="podcast-rings">
+          <div class="ring"></div>
+          <div class="ring"></div>
+          <div class="ring"></div>
+          <a href="https://youtube.com/@ololadelomark?si=pz0jr_CU7hX-lvNn" target="_blank" rel="noopener" class="center" aria-label="Watch Lomark Podcast on YouTube">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEDIA / EVENT GALLERY ============ -->
+<section class="section section-alt" id="media">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div>
+        <span class="folio">In The Room</span>
+        <h2>Moments from the journey</h2>
+      </div>
+      <p>Highlights from Becoming Your Identity 1.0 and other appearances.</p>
+    </div>
+    <div class="gallery-masonry reveal reveal-delay-1" id="gallery">
+      <div class="gallery-item g-1" data-full="assets/event-2.jpg" data-caption="Becoming Your Identity 1.0 — main stage">
+        <img src="assets/event-2.jpg" alt="Ololade Mary Ogunfolu on stage at Becoming Your Identity 1.0, addressing the audience" loading="lazy">
+        <div class="cap">Becoming Your Identity 1.0 — Main Stage</div>
+      </div>
+      <div class="gallery-item g-2" data-full="assets/event-1.jpg" data-caption="Book launch moment on stage">
+        <img src="assets/event-1.jpg" alt="Ololade Mary Ogunfolu with guests at the book launch" loading="lazy">
+        <div class="cap">The Book Launch</div>
+      </div>
+      <div class="gallery-item g-3" data-full="assets/book-cover.jpg" data-caption="Beyond The Pain — book cover">
+        <img src="assets/book-cover.jpg" alt="Beyond The Pain book cover" loading="lazy">
+        <div class="cap">Beyond The Pain — The Book</div>
+      </div>
+      <div class="gallery-item g-4" data-full="assets/portrait.jpg" data-caption="Ololade Mary Ogunfolu">
+        <img src="assets/portrait.jpg" alt="Portrait of Ololade Mary Ogunfolu" loading="lazy">
+        <div class="cap">Ololade Mary Ogunfolu</div>
+      </div>
+      <div class="gallery-item g-5" data-full="assets/event-1.jpg" data-caption="Guests and community">
+        <img src="assets/event-1.jpg" alt="Guests gathered around Ololade Mary Ogunfolu at the event" loading="lazy">
+        <div class="cap">Her Community</div>
+      </div>
+      <div class="gallery-item g-6" data-full="assets/event-2.jpg" data-caption="Faith, Purpose, Growth, Impact">
+        <img src="assets/event-2.jpg" alt="Full room at Becoming Your Identity 1.0" loading="lazy">
+        <div class="cap">Faith. Purpose. Growth. Impact.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="testimonials">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div>
+        <span class="folio">In Their Words</span>
+        <h2>What people are saying</h2>
+      </div>
+      <p>Testimonials from clients, mentees and readers will appear here.</p>
+    </div>
+    <div class="testi-grid reveal reveal-delay-1">
+      <div class="testi-card">
+        <div><span class="testi-mark">&ldquo;</span><p class="testi-quote">Testimonial coming soon — this space is reserved for a client, mentee or reader's words.</p></div>
+        <p class="testi-name">Name &middot; Title (editable)</p>
+      </div>
+      <div class="testi-card">
+        <div><span class="testi-mark">&ldquo;</span><p class="testi-quote">Testimonial coming soon — this space is reserved for a client, mentee or reader's words.</p></div>
+        <p class="testi-name">Name &middot; Title (editable)</p>
+      </div>
+      <div class="testi-card">
+        <div><span class="testi-mark">&ldquo;</span><p class="testi-quote">Testimonial coming soon — this space is reserved for a client, mentee or reader's words.</p></div>
+        <p class="testi-name">Name &middot; Title (editable)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOCIAL ============ -->
+<section class="section section-alt" id="social">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div>
+        <span class="folio">Stay Connected</span>
+        <h2>Follow the journey</h2>
+      </div>
+    </div>
+    <div class="social-grid reveal reveal-delay-1">
+      <a class="social-card" href="https://www.instagram.com/becomingyouridentity_?igsi=MTh4am1hY3UzcXcwaw==" target="_blank" rel="noopener">
+        <div class="mark"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="var(--gold)" stroke="none"/></svg></div>
+        <h4>Instagram</h4>
+        <p>Behind the scenes of her design work, mentorship and daily journey.</p>
+        <span class="cta">Follow the Journey &rarr;</span>
+      </a>
+      <a class="social-card" href="https://youtube.com/@ololadelomark?si=pz0jr_CU7hX-lvNn" target="_blank" rel="noopener">
+        <div class="mark"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l6 3-6 3z" fill="var(--gold)" stroke="none"/></svg></div>
+        <h4>YouTube</h4>
+        <p>Full episodes of Lomark Podcast and the book animation.</p>
+        <span class="cta">Watch &amp; Listen &rarr;</span>
+      </a>
+      <a class="social-card" href="https://wa.me/2348079707379" target="_blank" rel="noopener">
+        <div class="mark"><svg viewBox="0 0 24 24"><path d="M4 20l1.4-4.2A8 8 0 1112 20a8 8 0 01-4.2-1.2L4 20z"/></svg></div>
+        <h4>WhatsApp</h4>
+        <p>Reach out directly for design enquiries, coaching or bookings.</p>
+        <span class="cta">Connect on WhatsApp &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <span class="folio">Let&rsquo;s Connect</span>
+        <div style="height:20px"></div>
+        <h2>Let's connect</h2>
+        <p>For design enquiries, speaking, mentorship, or the book — reach out and her team will get back to you.</p>
+
+        <div class="contact-detail">
+          <span class="label">WhatsApp</span>
+          <a href="https://wa.me/2348079707379" target="_blank" rel="noopener">+234 807 970 7379</a>
+        </div>
+        <div class="contact-detail">
+          <span class="label">Instagram</span>
+          <a href="https://www.instagram.com/becomingyouridentity_?igsi=MTh4am1hY3UzcXcwaw==" target="_blank" rel="noopener">@becomingyouridentity_</a>
+        </div>
+        <div class="contact-detail">
+          <span class="label">YouTube</span>
+          <a href="https://youtube.com/@ololadelomark?si=pz0jr_CU7hX-lvNn" target="_blank" rel="noopener">@ololadelomark</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal reveal-delay-1" id="contactForm">
+        <div class="form-row form-row-double">
+          <div>
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" required>
+          </div>
+          <div>
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="cf-subject">Subject</label>
+          <input type="text" id="cf-subject" name="subject" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold">Send Message</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Ololade Mary Ogunfolu logo">
+      <p class="footer-tag">"Building Spaces. Building Businesses. Building People."</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <a href="#about">About</a>
+        <a href="#book">Book</a>
+        <a href="#journey">Journey</a>
+        <a href="#work">Work</a>
+      </div>
+      <div class="footer-col">
+        <h5>Connect</h5>
+        <a href="#media">Media</a>
+        <a href="#podcast">Podcast</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Follow</h5>
+        <a href="https://www.instagram.com/becomingyouridentity_?igsi=MTh4am1hY3UzcXcwaw==" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://youtube.com/@ololadelomark?si=pz0jr_CU7hX-lvNn" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://wa.me/2348079707379" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+  <div class="hairline-solid" aria-hidden="true"></div>
+  <div class="footer-bottom" style="padding-top:30px;">
+    <p>&copy; 2026 Ololade Mary Ogunfolu. All Rights Reserved.</p>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/becomingyouridentity_?igsi=MTh4am1hY3UzcXcwaw==" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg>
+      </a>
+      <a href="https://youtube.com/@ololadelomark?si=pz0jr_CU7hX-lvNn" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l6 3-6 3z"/></svg>
+      </a>
+      <a href="https://wa.me/2348079707379" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M4 20l1.4-4.2A8 8 0 1112 20a8 8 0 01-4.2-1.2L4 20z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">&times;</button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&larr;</button>
+  <img id="lightboxImg" src="" alt="">
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&rarr;</button>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
